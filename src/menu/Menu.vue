@@ -5,7 +5,7 @@
         <router-link :to="{ path: item.id }">{{ item.title }} - {{ index = index + 1 }}</router-link>
         <ol>
           <li v-for="it in item.subtitles" :key="it.id">
-              <router-link :to="{ path: it.id }">{{ it.sub }}</router-link>
+              <router-link :to="item.id + it.id">{{ it.sub }}</router-link>
           </li>
         </ol>
       </li>
@@ -19,9 +19,9 @@ export default {
         return {
             titles: [
                 { title: 'Javascript', id: '/js', subtitles: [
-                    { sub: 'Arrays', id: '/js/arrays' },
-                    { sub: 'Objects', id: '/js/objects' },
-                    { sub: 'Functions', id: '/js/functions' }
+                    { sub: 'Arrays', id: '/arrays' },
+                    { sub: 'Objects', id: '/objects' },
+                    { sub: 'Functions', id: '/functions' }
                 ] },
                 { title: 'Vue.js', id: '/vue', subtitles: ['Arrays', 'Objects', 'Functions'] },
                 { title: 'cmd', id: '/cmd', subtitles: ['Arrays', 'Objects', 'Functions'] } 
