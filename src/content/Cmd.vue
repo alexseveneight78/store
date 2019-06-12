@@ -1,6 +1,8 @@
 <template>
     <div>
         <h3>Cmd component</h3>
+        <hr>
+        <router-view></router-view>
     </div>
 </template>
 

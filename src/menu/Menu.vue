@@ -23,8 +23,12 @@ export default {
                     { sub: 'Objects', id: '/objects' },
                     { sub: 'Functions', id: '/functions' }
                 ] },
-                { title: 'Vue.js', id: '/vue', subtitles: ['Arrays', 'Objects', 'Functions'] },
-                { title: 'cmd', id: '/cmd', subtitles: ['Arrays', 'Objects', 'Functions'] } 
+                { title: 'Vue.js', id: '/vue', subtitles: [
+                    { sub: 'Неочевидности', id: '/nonObviousness' }
+                ] },
+                { title: 'cmd', id: '/cmd', subtitles: [
+                    { sub: 'GitBash', id: '/gitbash' }
+                ] } 
             ]
         }
     }
