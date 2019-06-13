@@ -19,15 +19,15 @@ export default {
         return {
             titles: [
                 { title: 'Javascript', id: '/js', subtitles: [
-                    { sub: 'Arrays', id: '/arrays' },
-                    { sub: 'Objects', id: '/objects' },
-                    { sub: 'Functions', id: '/functions' }
+                    { sub: 'Массивы', id: '/arrays' },
+                    { sub: 'Объекты', id: '/objects' },
+                    { sub: 'Функции', id: '/functions' }
                 ] },
                 { title: 'Vue.js', id: '/vue', subtitles: [
                     { sub: 'Неочевидности', id: '/nonObviousness' }
                 ] },
                 { title: 'cmd', id: '/cmd', subtitles: [
-                    { sub: 'GitBash', id: '/gitbash' }
+                    { sub: 'GitBash', id: '/git-bash' }
                 ] } 
             ]
         }
@@ -40,6 +40,7 @@ export default {
         border-right: 1px dashed black;
         width: 300px;
         height: 100vh;
+        padding: 10px;
     }
     ul {
         padding-left: 13px;
