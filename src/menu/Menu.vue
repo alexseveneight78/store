@@ -24,7 +24,7 @@ export default {
                     { sub: 'Функции', id: '/functions' }
                 ] },
                 { title: 'Vue.js', id: '/vue', subtitles: [
-                    { sub: 'Неочевидности', id: '/nonObviousness' }
+                    { sub: 'Заметки', id: '/notes' }
                 ] },
                 { title: 'cmd', id: '/cmd', subtitles: [
                     { sub: 'GitBash', id: '/git-bash' }

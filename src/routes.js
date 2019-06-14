@@ -8,7 +8,7 @@ import Functions from './content/js/Functions.vue';
 
 import Vue from './content/Vue.vue';
 //-----components for Vue-folder
-import NonObviousness from './content/vue/NonObviousness.vue';
+import Notes from './content/vue/Notes.vue';
 //-----
 
 import Cmd from  './content/Cmd.vue';
@@ -26,7 +26,7 @@ export const routes = [
         { path: 'functions', component: Functions }
     ] },
     { path: '/vue', component: Vue, children: [
-        { path: 'nonObviousness', component: NonObviousness }
+        { path: 'notes', component: Notes }
     ] },
     { path: '/cmd', component: Cmd, children: [
         { path: 'git-bash', component: GitBash }
