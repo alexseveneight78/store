@@ -34,7 +34,7 @@ export default {
 
 <style>
   body {
-    background-color: #ccc;
+    background-color: #fff;
     margin: 0;
   }
   h3 {

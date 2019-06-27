@@ -12,6 +12,10 @@ export default {
 
 <style scoped>
     .vue-content-slot {
-        background-color: lightgreen;
+        background-color: #41B888;
+        padding: 25px 50px 0px 25px;
+        box-sizing: border-box;
+        margin: 10px;
+        outline: 1px solid #fff;
     }
 </style>

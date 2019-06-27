@@ -17,7 +17,8 @@ export default {
     div {
         background-color: black;
         width: 100%;
-        padding: 25px 50px 0 25px;
+        padding: 25px 0px 0 25px;
         color: rgb(0,255,0);
+        box-sizing: border-box;
     }
 </style>

@@ -26,5 +26,10 @@ export default {
 </script>
 
 <style scoped>
-
+    a {
+        color: #fff;
+    }
+    a:hover {
+        color: gray;
+    }
 </style>
