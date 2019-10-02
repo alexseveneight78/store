@@ -22,8 +22,8 @@
                 <pre>
                     <code>
                         <tr :class="{ bg: isActive }">
-                        <td><input type="number" v-model.number="number"></td>
-                        <td> total: {{ calc = calc % 2 === 0 ? calc : { bg: !isActive } }}</td>
+                            <td><input type="number" v-model.number="number"></td>
+                            <td> total: {{ calc = calc % 2 === 0 ? calc : { bg: !isActive } }}</td>
                         </tr>
                     </code>
                 </pre>

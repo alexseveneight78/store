@@ -8,6 +8,7 @@
         задачу FizzBuzz методом <code>forEach</code> не решить так просто, как с помощью цикла for.</p>
         <p>Пример цикла <code>for</code>: 
         <pre>
+            <code>
             let arr = [1,2,'three', 4, , 6,'el'];
             let container = [];
 
@@ -17,6 +18,7 @@
 
             console.log(container)
             // Вывод: (7) [1, 2, "three", 4, undefined, 6, "el"]
+            </code>
         </pre>
         </p>
         <p>Пример цикла <code>forEach</code>:</p>
